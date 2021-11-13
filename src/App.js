@@ -67,7 +67,7 @@ function App() {
         }
     }
 
-    const statusTextClassName = sendingCodeStatus == Status.FAILURE ? "statusText__error" : "statusText__normal"
+    const statusTextClassName = sendingCodeStatus === Status.FAILURE ? "statusText__error" : "statusText__normal"
 
     return (
         <div className={styles.App}>
