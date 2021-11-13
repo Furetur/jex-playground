@@ -1,0 +1,39 @@
+.App {
+    display: flex;
+    flex-direction: row;
+}
+
+.editorContainer {
+    width: 60%;
+    height: 100%;
+}
+
+.runnerContainer {
+    width: 40%;
+    height: 100%;
+
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.runButton {
+    width: 60px;
+}
+
+.statusText__normal {
+    text-transform: uppercase;
+}
+
+.statusText__error {
+    text-transform: uppercase;
+    color: red;
+}
+
+.outputText {
+    white-space: pre-wrap;
+}
