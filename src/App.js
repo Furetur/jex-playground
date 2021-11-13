@@ -2,6 +2,7 @@ import React, {useRef, useState} from "react";
 
 import Editor from "@monaco-editor/react";
 import styles from './App.module.css';
+import Header from "./components/Header/Header";
 
 const defaultCode = `
 fn sumOfFirstNumbers(n) {
@@ -71,6 +72,9 @@ function App() {
 
     return (
         <div className={styles.App}>
+            <div className={styles.headerContainer}>
+                <Header />
+            </div>
             <div className={styles.editorContainer}>
                 <Editor
                     height="90vh"

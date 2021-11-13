@@ -1,0 +1,32 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 32px;
+    border-bottom: solid darkslategrey 1px;
+}
+
+.title {
+    margin: 0;
+}
+
+.nav {
+
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.navList li {
+    margin-right: 16px;
+}
+
+.navLink {
+
+}
