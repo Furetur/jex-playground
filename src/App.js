@@ -7,15 +7,15 @@ import Header from "./components/Header/Header";
 const defaultCode = `
 fn sumOfFirstNumbers(n) {
     if (n == 0) {
-        return 0
+        return 0;
     } else {
-        return n + sumOfFirstNumbers(n - 1)
+        return n + sumOfFirstNumbers(n - 1);
     }
 }
 
-println("Hello NAME")
-println("Here is 1 + 2 + ... + 100")
-println(sumOfFirstNumbers(100))
+println("Hello NAME");
+println("Here is 1 + 2 + ... + 100");
+println(sumOfFirstNumbers(100));
 `;
 
 function sendCodeToServer(code) {
